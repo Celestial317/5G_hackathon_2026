@@ -85,17 +85,16 @@ This combination enables detection of attacks that are otherwise invisible to co
 ## Repository Structure
 ```
 .
-├── data/                  # Sample or simulated datasets
-├── models/                # Trained models and configurations
-├── modules/
-│   ├── signal_processing/
-│   ├── feature_extraction/
-│   ├── anomaly_detection/
-│   └── graph_modeling/
-├── notebooks/             # Experimentation and analysis
-├── scripts/               # Execution scripts
+├── ddos_udp.py            # DDoS-oriented UDP intrusion simulation/detection workflow
+├── network_slice.py       # Network slicing scenario implementation
+├── net_slice_vul.py       # Network slicing vulnerability scenario script
+├── reflected_udp.py       # Reflected UDP attack scenario implementation
+├── refudp_v2.py           # Reflected UDP scenario variant
 └── README.md
 ```
+
+### Research Limitation Note
+Detailed mitigation plans are intentionally not included in this repository due to ongoing research and evaluation constraints.
 
 ---
 
